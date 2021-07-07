@@ -1,5 +1,6 @@
 function getYearBorn(age) {
-    return 2021 - age;
+    const date = new Date();
+    return date.getFullYear() - age;
 }
 
 
